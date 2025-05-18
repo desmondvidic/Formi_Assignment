@@ -1,15 +1,3 @@
-You've reached your data analysis limit.
-Upgrade to ChatGPT Plus or try again tomorrow after 11:31 AM.
-
-
-ChatGPT can make mistakes. Check important info. See Cookie Preferences.
-Analysis
-
-Always show details
-
-from pathlib import Path
-
-readme_content = """
 # 📚 Knowledge Base API with DOCX Chunking and Retell.ai Integration
 
 This project extracts structured content from `.docx` files, chunks it based on token count, serves it via a FastAPI backend, and integrates it with [Retell.ai](https://www.retellai.com) using a custom webhook.
@@ -54,6 +42,7 @@ Always show details
 git clone https://github.com/your-repo/kb-retell-integration.git
 cd kb-retell-integration
 pip install -r requirements.txt
+```
 
 2. Extract & Chunk DOCX
 
@@ -132,13 +121,3 @@ Always show details
     Python 3.8+
 
     fastapi, uvicorn, fuzzywuzzy, transformers, python-docx, tqdm, pydantic
-
-📞 Contact
-
-For queries or improvements, raise an issue or email your_email@example.com
-"""
-
-readme_path = Path("/mnt/data/README.md")
-readme_path.write_text(readme_content.strip())
-
-readme_path
