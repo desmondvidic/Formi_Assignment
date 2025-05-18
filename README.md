@@ -17,6 +17,8 @@ This project extracts structured content from `.docx` files, chunks it based on 
 ---
 
 ## Working
+![Working](https://github.com/user-attachments/assets/165844f5-4d1c-44a4-99e0-8eba4fd99732)
+
 
 # Knowledge Base to Retell Webhook Integration
 
